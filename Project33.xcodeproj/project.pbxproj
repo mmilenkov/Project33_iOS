@@ -12,6 +12,9 @@
 		3FFF2F4122D84FA500B82EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2F3F22D84FA500B82EA0 /* Main.storyboard */; };
 		3FFF2F4322D84FA600B82EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2F4222D84FA600B82EA0 /* Assets.xcassets */; };
 		3FFF2F4622D84FA600B82EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF2F4422D84FA600B82EA0 /* LaunchScreen.storyboard */; };
+		3FFF2F5022D8519400B82EA0 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF2F4F22D8519400B82EA0 /* RecordWhistleViewController.swift */; };
+		3FFF2F5222D8BCF100B82EA0 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF2F5122D8BCF100B82EA0 /* SelectGenreViewController.swift */; };
+		3FFF2F5422D8BF4700B82EA0 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF2F5322D8BF4700B82EA0 /* AddCommentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3FFF2F4222D84FA600B82EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFF2F4522D84FA600B82EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFF2F4722D84FA600B82EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF2F4F22D8519400B82EA0 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
+		3FFF2F5122D8BCF100B82EA0 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		3FFF2F5322D8BF4700B82EA0 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				3FFF2F4222D84FA600B82EA0 /* Assets.xcassets */,
 				3FFF2F4422D84FA600B82EA0 /* LaunchScreen.storyboard */,
 				3FFF2F4722D84FA600B82EA0 /* Info.plist */,
+				3FFF2F4F22D8519400B82EA0 /* RecordWhistleViewController.swift */,
+				3FFF2F5122D8BCF100B82EA0 /* SelectGenreViewController.swift */,
+				3FFF2F5322D8BF4700B82EA0 /* AddCommentsViewController.swift */,
 			);
 			path = Project33;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFF2F3E22D84FA500B82EA0 /* ViewController.swift in Sources */,
+				3FFF2F5422D8BF4700B82EA0 /* AddCommentsViewController.swift in Sources */,
 				3FFF2F3C22D84FA500B82EA0 /* AppDelegate.swift in Sources */,
+				3FFF2F5222D8BCF100B82EA0 /* SelectGenreViewController.swift in Sources */,
+				3FFF2F5022D8519400B82EA0 /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
